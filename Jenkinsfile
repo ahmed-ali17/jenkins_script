@@ -8,9 +8,4 @@ node{
             sh 'ecgitho "Exception"'
         }
     }
-    stage{'test'}{
-        if (env.BRANCH == 'feature'){
-            sh 'echo "test stage"'
-        }
-    }
 }
