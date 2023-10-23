@@ -5,7 +5,7 @@ node{
             sh 'echo "build stage"'
         }
         catch(Exception e){
-            sh 'ecgitho "Exception"'
+            sh 'echo "Exception"'
         }
     }
 }
